@@ -1,0 +1,190 @@
+.featuredrestaurants {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.toprow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottomrow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.featuredrestaurants h1 {
+    font-size: 43px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    text-align: center;
+}
+
+.featuredwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0px 70px;
+}
+
+.restaurantcard1 {
+    position: relative;
+}
+
+.restaurantcard1 img {
+   width: 270px;
+   height: 230px;
+   border-radius: 10px;
+}
+
+.restaurantcard1tag {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    background-color: #F17228;
+    color: white;
+
+    padding: 6px 10px;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.restaurantcard1tag img {
+    width: 16px;
+    height: 16px;
+}
+
+.restaurantcard1tag span {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+.restaurantcard1clock {
+    position: absolute;
+    top: 12px;
+    left: 120px;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    background-color: #FFB30E;
+    color: white;
+
+    padding: 6px 10px;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.restaurantcard1clock img {
+    width: 16px;
+    height: 16px;
+}
+
+.restaurantcard1clock span {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+.restaurantcard21 {
+    display: flex;
+    gap: 5px;
+}
+
+.restaurantcard212 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+    margin-top: 2px;
+}
+
+.restaurantcard2122 {
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    gap: 5px;
+}
+
+.restaurantcard2 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.restaurantcard {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.restaurantcard2121 p {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #424242;
+}
+
+.restaurantcard2122 span {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFB30E;
+}
+
+.restaurantcard211 img {
+    width: 80%;
+    height: 85%;
+}
+
+.restaurantcard2122 img {
+    width: 16px;
+    height: 16px;
+}
+
+.restaurantcard22
+p {
+    padding: 8px 16px;
+    border-radius: 16px;
+    background-color: rgba(241, 114, 40, 0.2);
+    color: #F17228;
+    font-family: 'source sans pro', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.restaurantcard23,
+.restaurantcard24,
+.restaurantcard25,
+.restaurantcard26 p {
+    padding: 8px 16px;
+    border-radius: 16px;
+    background-color: rgba(121, 185, 60, 0.2);
+    color: #79B93C;
+    font-family: 'source sans pro', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    width: fit-content;
+}

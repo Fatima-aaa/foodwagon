@@ -1,0 +1,163 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;     
+  justify-content: space-between; 
+
+  padding: 0 30px;          
+  box-sizing: border-box;
+
+  background-color: #FFB20E;     
+  box-shadow:
+    inset 0 4px 32px rgba(0, 0, 0, 0.08),   /* top wide spread */
+    inset 0 -4px 36px rgba(0, 0, 0, 0.10); /* bottom wide spread */
+}
+
+.hero-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.hero-right {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100vh;
+}
+
+
+.bowl {
+  height: 70%;
+  filter:
+    drop-shadow(-8px 14px 26px rgba(0, 0, 0, 0.38))  /* left + bottom */
+    drop-shadow(6px 20px 32px rgba(0, 0, 0, 0.28)); /* bottom-right */
+}
+
+
+.whitebox {
+  width: 100%;
+  max-width: 600px;   
+  min-height: 160px; 
+  background-color: white;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  gap: 16px;
+}
+
+.whiteboxtop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.delivery {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: rgba(241, 114, 40, 0.1);
+}
+
+.deliverytext {
+  color: #F17228;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heroheading {
+  font-size: 88px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heropara {
+  font-size: 22px;
+  color: #504F4F;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pickuptext {
+  font-size: 18px;
+  color: #504F4F;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+
+.pickup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  border-radius: 8px;
+}
+
+.whiteboxbtm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.whiteboxinput {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  padding: 7px 16px;
+}
+
+.whiteboxinputfield {
+  all: unset;
+  width: 90%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #504F4F;
+}
+
+.whiteboxbtn {
+  background: linear-gradient(
+  to right,
+  #FF7A7A 0%,
+  #F65900 100%
+  );
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 36px;
+}
+
+.findfood {
+  font-size: 15px;
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+
+.hero-right img{
+  margin-bottom: 1px;
+}

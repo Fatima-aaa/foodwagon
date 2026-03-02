@@ -1,0 +1,62 @@
+.process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px;
+    border-radius: 8px;
+    gap: 40px;
+    background: linear-gradient(
+    to bottom,
+    rgba(255, 206, 103, 0.22) 0%,
+    rgba(255, 255, 255, 1) 100%
+    );
+}
+
+
+.process2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 25px;
+}
+
+
+.process1 h1 {
+    font-size: 43px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: #F17228;
+}
+
+
+.processcard2title {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: #434343;
+}
+
+
+.processcard2descrp {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    color: #9E9E9E;
+    text-align: center;
+}
+
+
+.processcard2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.processcard1 {
+    display: flex;
+    justify-content: center;
+}
+
+

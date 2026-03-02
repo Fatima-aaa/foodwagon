@@ -1,0 +1,137 @@
+.application {
+    background-color: #FEEFD0;
+    padding: 50px 70px 0px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.apptop {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 50px 50px;
+    width: fit-content;
+    gap: 40px;
+    border-radius: 40px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.card12 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'source sans pro', sans-serif;
+    background: linear-gradient(160deg, #FB3C00 0%, #FFB800 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card11 img {
+    width: 125px;
+    height: 125px;
+}
+
+
+.card1:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 20%;
+    height: 60%;
+    width: 2px;
+    background: #CFCFCF;
+}
+
+.appbottom {
+    padding: 50px 70px 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.appbottom::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(90deg, #FF8A00 0%, #FFB800 100%);
+    z-index: -1;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C5,40 20,75 45,75 C70,75 85,60 100,45 L100,100 L0,100 Z' fill='black'/%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C5,40 20,75 45,75 C70,75 85,60 100,45 L100,100 L0,100 Z' fill='black'/%3E%3C/svg%3E");
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+}
+
+.appbottomright {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.appbottomrightbuttons {
+    gap: 5px;
+    display: flex;
+}
+
+.appbottomrightp1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    background: linear-gradient(160deg, #FFB800 0%, #FF8A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.appbottomrightp2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #827E7E;
+}
+
+.appbottomrightbutton1, .appbottomrightbutton2 {
+    all: unset;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+    width: 140px;
+    align-items: center;
+    box-shadow: 0px 12px 20px rgba(214, 171, 53, 0.25);
+}
+
+.appbtmrgtbtn1p1, .appbtmrgtbtn2p1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6b6969;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.appbtmrgtbtn1p2, .appbtmrgtbtn2p2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #2e2e2e;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+.appbottomleft img {
+    margin-bottom: -4px;
+}

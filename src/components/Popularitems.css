@@ -1,0 +1,141 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 40px 0px; 
+}
+
+
+.popularitemslist {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+
+.popularitemstitle p {
+    font-size: 43px;
+    font-weight: bold;
+    color: #212121;
+    font-family: 'source sans pro', sans-serif;
+    text-align: center;
+}
+
+
+.itemcardimage {
+    width: 220px;
+    height: 220px;
+}
+
+
+.itemcard1desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.itemcard1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.itemcard1restaurant {
+    display: flex;
+    gap: 10px;
+}
+
+
+.itemcard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.itemcard1title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #424242;
+    font-family: 'source sans pro', sans-serif;
+}
+
+
+.itemcard1restaurant {
+    font-size: 18px;
+    color: #FFB30E;
+    font-family: 'source sans pro', sans-serif;
+    font-weight: bold;
+}
+
+
+.itemcard1price {
+    font-size: 18px;
+    color: #212121;
+    font-family: 'source sans pro', sans-serif;
+    font-weight: bold;
+}
+
+
+.itemcard2 button{
+    all: unset;
+    box-sizing: border-box;
+    background-color: #F17228;
+    width: 100%;
+    padding: 15px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'source sans pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(241, 114, 40, 0.25);
+}
+
+
+
+.arrowright {
+    all: unset;
+    background-color: #FFB20E;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    box-shadow: 0px 6px 12px rgba(255, 178, 14, 0.25);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+
+
+.arrowleft {
+    all: unset;
+    background-color: #FFB20E;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    box-shadow: 0px 6px 12px rgba(255, 178, 14, 0.25);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+
+
+.popularitemscontainer {
+    position: relative;
+}
+
+

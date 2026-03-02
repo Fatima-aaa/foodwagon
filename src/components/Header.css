@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  height: 78px;
+
+  display: flex;
+  align-items: center;     
+  justify-content: space-between; 
+
+  padding: 0 24px;          
+  box-sizing: border-box;
+
+  background-color: #fff;     
+}
+
+
+.delivery-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.deliverto {
+  color: #424242;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+.currlocation {
+  color: #424242;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.address {
+  color: #424242;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.signupbtn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchbtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchfood {
+  color: #424242;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+.searchbtnicon {
+  all: unset;
+  cursor: pointer;
+}
+
+.loginbtn {
+  all: unset;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(90deg, #FFB800 0%, #FF8A00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 14px 24px;
+  box-shadow:
+  0px 5px 10px 0px rgba(255, 174, 0, 0.26),
+  0px 20px 40px 0px rgba(255, 174, 0, 0.29);
+}
