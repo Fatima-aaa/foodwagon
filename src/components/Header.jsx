@@ -1,7 +1,7 @@
 import './Header.css'
 import logo from '../assets/Logo.png'
 import mapmarker from '../assets/mapmarker.png'
-import search from '../assets/search.png'
+import search from '../assets/Search.png'
 import user from '../assets/user.png'
 
 function Header() {
