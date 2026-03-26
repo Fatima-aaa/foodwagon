@@ -135,3 +135,128 @@
 .appbottomleft img {
     margin-bottom: -4px;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .application {
+    padding: 40px 40px 0 40px;
+  }
+
+  .appbottom {
+    padding: 40px 40px 0 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .apptop {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .card1:not(:last-child)::after {
+    display: none;
+  }
+
+  .appbottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .appbottomright {
+    align-items: center;
+  }
+
+  .appbottomrightp1 {
+    font-size: 36px;
+  }
+
+  .card11 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card12 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .application {
+    padding: 30px 20px 0 20px;
+    gap: 30px;
+  }
+
+  .apptop {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .card11 img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card12 {
+    font-size: 22px;
+  }
+
+  .appbottom {
+    padding: 30px 20px 0 20px;
+  }
+
+  .appbottomrightp1 {
+    font-size: 28px;
+  }
+
+  .appbottomrightp2 {
+    font-size: 14px;
+  }
+
+  .appbottomrightbuttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .appbottomrightbutton1, .appbottomrightbutton2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .appbottomleft img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .application {
+    padding: 20px 16px 0 16px;
+  }
+
+  .apptop {
+    flex-direction: column;
+  }
+
+  .card1 {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .card11 img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card12 {
+    font-size: 18px;
+  }
+
+  .appbottomrightp1 {
+    font-size: 24px;
+  }
+
+  .appbottomleft img {
+    max-width: 250px;
+  }
+}

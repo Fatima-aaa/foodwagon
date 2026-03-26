@@ -188,3 +188,109 @@ p {
     font-weight: 700;
     width: fit-content;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .featuredwrapper {
+    padding: 0 40px;
+  }
+
+  .restaurantcard1 img {
+    width: 220px;
+    height: 190px;
+  }
+
+  .restaurantcard1clock {
+    left: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .featuredrestaurants {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .featuredrestaurants h1 {
+    font-size: 32px;
+  }
+
+  .toprow, .bottomrow {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .restaurantcard1 img {
+    width: 200px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  .featuredwrapper {
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .featuredrestaurants h1 {
+    font-size: 28px;
+  }
+
+  .toprow, .bottomrow {
+    gap: 20px;
+  }
+
+  .restaurantcard1 img {
+    width: 160px;
+    height: 140px;
+  }
+
+  .restaurantcard1tag, .restaurantcard1clock {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .restaurantcard1tag img, .restaurantcard1clock img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .restaurantcard1clock {
+    left: 85px;
+  }
+
+  .restaurantcard2121 p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .toprow, .bottomrow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .restaurantcard1 img {
+    width: 280px;
+    height: 220px;
+  }
+
+  .restaurantcard1clock {
+    left: auto;
+    right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .featuredrestaurants h1 {
+    font-size: 24px;
+  }
+
+  .restaurantcard1 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    aspect-ratio: 9/8;
+  }
+}

@@ -77,5 +77,100 @@
     background-color: #FFB30E;
     border-radius: 30px;
     box-shadow: 0 6px 10px rgba(255, 179, 14, 0.35);
+    cursor: pointer;
 }
 
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .search {
+    padding: 50px 40px;
+  }
+
+  .searchcard img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .search1 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .search1 p {
+    font-size: 32px;
+  }
+
+  .search2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .searchcard {
+    flex-shrink: 0;
+  }
+
+  .searchcard img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search {
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .search1 p {
+    font-size: 28px;
+  }
+
+  .searchcard img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .searchcard p {
+    font-size: 16px;
+  }
+
+  .searchbuttons {
+    gap: 10px;
+  }
+
+  .searchbuttonleft, .searchbuttonright {
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search {
+    padding: 30px 16px;
+  }
+
+  .search1 p {
+    font-size: 24px;
+  }
+
+  .search2 {
+    gap: 15px;
+  }
+
+  .searchcard img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .searchcard p {
+    font-size: 14px;
+  }
+
+  .searchcard {
+    gap: 10px;
+  }
+}

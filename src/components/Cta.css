@@ -42,3 +42,47 @@
   color: white;
   text-align: center;
 }
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .cta {
+    min-height: 250px;
+    padding: 40px 30px;
+  }
+
+  .cta p {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta {
+    min-height: 220px;
+    gap: 30px;
+  }
+
+  .cta p {
+    font-size: 26px;
+  }
+
+  .cta button {
+    padding: 14px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta {
+    min-height: 200px;
+    padding: 30px 16px;
+    gap: 20px;
+  }
+
+  .cta p {
+    font-size: 20px;
+  }
+
+  .cta button {
+    padding: 12px 24px;
+    font-size: 12px;
+  }
+}

@@ -91,3 +91,44 @@
   0px 5px 10px 0px rgba(255, 174, 0, 0.26),
   0px 20px 40px 0px rgba(255, 174, 0, 0.29);
 }
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .delivery-info {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 16px;
+    height: 60px;
+  }
+
+  .logo img {
+    height: 35px;
+  }
+
+  .searchfood {
+    display: none;
+  }
+
+  .loginbtn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .login {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .signupbtn {
+    gap: 10px;
+  }
+
+  .loginbtn {
+    padding: 8px 12px;
+  }
+}

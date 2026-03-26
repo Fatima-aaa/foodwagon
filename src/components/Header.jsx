@@ -5,10 +5,27 @@ import search from '../assets/search.png'
 import user from '../assets/user.png'
 
 function Header() {
+  const handleSearch = () => {
+    const query = prompt('What would you like to search for?')
+    if (query) {
+      console.log(`Searching for: ${query}`)
+      alert(`Searching for: ${query}`)
+    }
+  }
+
+  const handleLogin = () => {
+    console.log('Login clicked')
+    alert('Login functionality coming soon!')
+  }
+
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   return (
     <header className="header">
 
-      <div className="logo">
+      <div className="logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
         <img src={logo} alt="Logo" />
       </div>
 
@@ -24,11 +41,11 @@ function Header() {
 
 
       <div className='signupbtn'>
-        <div className='searchbtn'>
+        <div className='searchbtn' onClick={handleSearch} style={{ cursor: 'pointer' }}>
             <button className='searchbtnicon'><img src={search} alt="Search" /></button>
             <p className='searchfood'>Search Food</p>
         </div>
-        <button className='loginbtn'>
+        <button className='loginbtn' onClick={handleLogin}>
             <img src={user} alt="User" />
             <p className='login'>Login</p>
         </button>

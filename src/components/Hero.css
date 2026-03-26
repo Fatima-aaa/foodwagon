@@ -161,3 +161,106 @@
 .hero-right img{
   margin-bottom: 1px;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .heroheading {
+    font-size: 64px;
+  }
+
+  .heropara {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .hero-left {
+    flex: none;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-right {
+    flex: none;
+    height: auto;
+    align-items: center;
+  }
+
+  .bowl {
+    height: auto;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .whitebox {
+    max-width: 100%;
+  }
+
+  .heroheading {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroheading {
+    font-size: 36px;
+  }
+
+  .heropara {
+    font-size: 16px;
+  }
+
+  .whiteboxbtm {
+    flex-direction: column;
+  }
+
+  .whiteboxinput {
+    width: 100%;
+  }
+
+  .whiteboxbtn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .bowl {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 30px 16px;
+  }
+
+  .heroheading {
+    font-size: 28px;
+  }
+
+  .heropara {
+    font-size: 14px;
+  }
+
+  .whiteboxtop {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .delivery, .pickup {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .bowl {
+    max-width: 250px;
+  }
+}

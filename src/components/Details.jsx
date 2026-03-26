@@ -5,6 +5,11 @@ import details3 from '../assets/details3.png';
 import CHEVRONRIGHT from '../assets/CHEVRONRIGHT.png'
 
 function Details() {
+  const handleOrder = (item) => {
+    console.log(`Ordering: ${item}`)
+    alert(`Proceeding to order: ${item}`)
+  }
+
   return (
     <div className='details'>
         <div className='details1'>
@@ -12,9 +17,9 @@ function Details() {
                 <h1> Best Deals
                     <span style={{color:'#F59500'}}> Crispy Sandwitches</span>
                 </h1>
-                <p>Enjoy the large size of sandwiches. Complete 
+                <p>Enjoy the large size of sandwiches. Complete
                 perfect slice of sandwiches.</p>
-                <button>
+                <button onClick={() => handleOrder('Crispy Sandwiches')}>
                     PROCEED TO ORDER
                     <img src={CHEVRONRIGHT} alt='chevron' />
                 </button>
@@ -31,9 +36,9 @@ function Details() {
                 <h1> Celebrate parties with
                     <span style={{color:'#F59500'}}> Fried Chicken</span>
                 </h1>
-                <p>Enjoy the large size of sandwiches. Complete 
+                <p>Enjoy the large size of sandwiches. Complete
                 perfect slice of sandwiches.</p>
-                <button>
+                <button onClick={() => handleOrder('Fried Chicken')}>
                     PROCEED TO ORDER
                     <img src={CHEVRONRIGHT} alt='chevron' />
                 </button>
@@ -44,9 +49,9 @@ function Details() {
                 <h1> Wanna eat hot & spicy
                     <span style={{color:'#F59500'}}> Pizza?</span>
                 </h1>
-                <p>Enjoy the large size of sandwiches. Complete 
+                <p>Enjoy the large size of sandwiches. Complete
                 perfect slice of sandwiches.</p>
-                <button>
+                <button onClick={() => handleOrder('Hot & Spicy Pizza')}>
                     PROCEED TO ORDER
                     <img src={CHEVRONRIGHT} alt='chevron' />
                 </button>

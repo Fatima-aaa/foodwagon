@@ -3,12 +3,17 @@ import cta from '../assets/cta.png';
 import CHEVRONRIGHT from '../assets/CHEVRONRIGHT.png'
 
 function Cta() {
+  const handleOrder = () => {
+    console.log('Proceeding to order')
+    alert('Taking you to the order page...')
+  }
+
   return (
     <div className='cta' style={{ backgroundImage: `url(${cta})` }}>
             <p>
-                Are you ready to order with <br /> the best deals? 
+                Are you ready to order with <br /> the best deals?
             </p>
-            <button>PROCEED TO ORDER
+            <button onClick={handleOrder}>PROCEED TO ORDER
               <img src={CHEVRONRIGHT} alt='chevron' />
             </button>
     </div>
